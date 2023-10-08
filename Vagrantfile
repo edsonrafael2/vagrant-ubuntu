@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder "site/", "/var/website"
 
   config.vm.provider "virtualbox" do |vm|
-    vm.name = "maquina-vitual-01"
+    vm.name = "maquina-vitual-01.1"
     
  end
 

@@ -7,6 +7,7 @@ Vagrant.configure("2") do |config|
     server1.vm.provision "shell", path: "script.sh"
         
      end
+#Providers
 
   config.vm.provider "virtualbox" do |server1|
     server1.memory = 2048
